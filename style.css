@@ -1,0 +1,28 @@
+.carousel{
+    width: 45rem;
+    height: 23rem;
+    border-radius: 1rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.carousel{
+    display: flex;
+}
+.carousel > img{
+    flex: 0 0 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel{
+    position: relative;
+}
+.carousel > img{
+    position: sticky;
+    left: 0;
+}
+.carousel{
+    scroll-snap-type: x mandatory;
+}
+.carousel > img{
+    scroll-snap-align: start;
+}
